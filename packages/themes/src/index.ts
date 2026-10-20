@@ -16,6 +16,7 @@ import './basic/aurora.css';
 import './basic/ember.css';
 import './basic/lagoon.css';
 import './basic/arctic-moss.css';
+import './basic/kracht.css';
 
 export type BasicThemeMeta = {
   id: string;
@@ -72,6 +73,16 @@ const BUILT_INS: BasicThemeMeta[] = [
       'oklch(0.97 0.008 200)',
       'oklch(0.58 0.09 175)',
       'oklch(0.20 0.02 175)',
+    ],
+  },
+  {
+    id: 'kracht:heavy',
+    name: 'Kracht',
+    palette: [
+      'oklch(0.58 0.21 25)',
+      'oklch(0.92 0.005 85)',
+      'oklch(0.35 0.02 25)',
+      'oklch(0.13 0.003 0)',
     ],
   },
 ];

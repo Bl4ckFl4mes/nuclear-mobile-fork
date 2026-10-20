@@ -1,7 +1,7 @@
 {
   "common": {
     "app": {
-      "name": "Nuclear",
+      "name": "Kracht",
       "description": "Music streaming app for your desktop"
     },
     "actions": {
@@ -262,7 +262,7 @@
     "clickToRestart": "Click to restart"
   },
   "flatpak": {
-    "sandboxWarning": "You're running Nuclear in a Flatpak sandbox. Some features may not work correctly. If you experience issues, try the .deb or AppImage instead.",
+    "sandboxWarning": "You're running Kracht in a Flatpak sandbox. Some features may not work correctly. If you experience issues, try the .deb or AppImage instead.",
     "dismiss": "Got it"
   },
   "preferences": {
@@ -370,12 +370,12 @@
       "title": "Integrations",
       "jam": {
         "enabled": {
-          "title": "Nuclear Jam",
-          "description": "Start a local web server that lets you control Nuclear from other devices on your network."
+          "title": "Kracht Jam",
+          "description": "Start a local web server that lets you control Kracht from other devices on your network."
         },
         "remoteUrl": {
           "title": "Remote URL",
-          "description": "Open this URL on another device to control Nuclear."
+          "description": "Open this URL on another device to control Kracht."
         },
         "apiUrl": {
           "title": "API URL",
@@ -385,21 +385,21 @@
       "mcp": {
         "enabled": {
           "title": "Enable MCP Server",
-          "description": "Start a local MCP server that allows AI tools to control Nuclear."
+          "description": "Start a local MCP server that allows AI tools to control Kracht."
         },
         "serverUrl": {
           "title": "MCP Server URL",
-          "description": "Point your AI tool to this URL to connect to Nuclear."
+          "description": "Point your AI tool to this URL to connect to Kracht."
         }
       },
       "mpd": {
         "enabled": {
           "title": "Enable MPD Server",
-          "description": "Start a local MPD-compatible server so MPD clients can control Nuclear."
+          "description": "Start a local MPD-compatible server so MPD clients can control Kracht."
         },
         "serverUrl": {
           "title": "MPD Server URL",
-          "description": "Point your MPD client to this address to connect to Nuclear."
+          "description": "Point your MPD client to this address to connect to Kracht."
         }
       },
       "discord": {
@@ -471,12 +471,12 @@
   },
   "remote": {
     "connecting": {
-      "title": "Connecting to Nuclear...",
-      "subtitle": "Make sure Nuclear is running and Nuclear Jam is enabled"
+      "title": "Connecting to Kracht...",
+      "subtitle": "Make sure Nuclear is running and Kracht Jam is enabled"
     },
     "error": {
-      "title": "Could not connect to Nuclear",
-      "subtitle": "Make sure Nuclear is running and Nuclear Jam is enabled in Settings"
+      "title": "Could not connect to Kracht",
+      "subtitle": "Make sure Nuclear is running and Kracht Jam is enabled in Settings"
     },
     "connection": {
       "connecting": "Connecting",
@@ -490,8 +490,8 @@
       "emptySubtitle": "Add tracks in Nuclear to see them here"
     },
     "qrCode": {
-      "tooltip": "Nuclear Jam remote control",
-      "instructions": "Scan the QR code or copy the address below to connect to Nuclear Jam"
+      "tooltip": "Kracht Jam remote control",
+      "instructions": "Scan the QR code or copy the address below to connect to Kracht Jam"
     }
   },
   "titleBar": {
