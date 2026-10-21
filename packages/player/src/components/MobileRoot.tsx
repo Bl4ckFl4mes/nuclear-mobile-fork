@@ -1,4 +1,4 @@
-import { BlocksIcon, GaugeIcon, SearchIcon, SettingsIcon } from 'lucide-react';
+import { BlocksIcon, GaugeIcon, ListMusicIcon, SearchIcon, SettingsIcon } from 'lucide-react';
 import { FC, useState } from 'react';
 
 import { useTranslation } from '@nuclearplayer/i18n';
@@ -57,6 +57,11 @@ export const MobileRoot: FC = () => {
             to="/search"
             icon={<SearchIcon />}
             label={tSearch('title')}
+          />
+          <BottomTabBarItem
+            to="/playlists"
+            icon={<ListMusicIcon />}
+            label={t('playlists')}
           />
           <BottomTabBarItem
             to="/plugins"
