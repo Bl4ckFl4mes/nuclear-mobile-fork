@@ -32,7 +32,7 @@ export const ConnectedTopBar: FC = () => {
       <div className="flex flex-row items-center gap-4">
         {!isTitleBarEnabled && (
           <Tooltip
-            content={`Nuclear ${version}`}
+            content={`Kracht ${version}`}
             side="bottom"
             wrapperClassName="flex items-center"
           >

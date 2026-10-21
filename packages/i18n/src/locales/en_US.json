@@ -195,7 +195,7 @@
   },
   "dashboard": {
     "title": "Dashboard",
-    "empty-state": "Welcome to Nuclear",
+    "empty-state": "Welcome to Kracht",
     "empty-state-description": "Install a plugin to see top tracks, new releases, and recommendations here.",
     "empty-state-action": "Browse plugins",
     "top-tracks": "Top Tracks",
@@ -472,11 +472,11 @@
   "remote": {
     "connecting": {
       "title": "Connecting to Kracht...",
-      "subtitle": "Make sure Nuclear is running and Kracht Jam is enabled"
+      "subtitle": "Make sure Kracht is running and Kracht Jam is enabled"
     },
     "error": {
       "title": "Could not connect to Kracht",
-      "subtitle": "Make sure Nuclear is running and Kracht Jam is enabled in Settings"
+      "subtitle": "Make sure Kracht is running and Kracht Jam is enabled in Settings"
     },
     "connection": {
       "connecting": "Connecting",
@@ -487,7 +487,7 @@
     "queue": {
       "upNext": "Up next",
       "emptyTitle": "Queue is empty",
-      "emptySubtitle": "Add tracks in Nuclear to see them here"
+      "emptySubtitle": "Add tracks in Kracht to see them here"
     },
     "qrCode": {
       "tooltip": "Kracht Jam remote control",
@@ -495,7 +495,7 @@
     }
   },
   "titleBar": {
-    "title": "Nuclear Music Player",
+    "title": "Kracht Music Player",
     "minimize": "Minimize",
     "maximize": "Maximize",
     "close": "Close"

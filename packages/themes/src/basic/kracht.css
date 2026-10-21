@@ -1,15 +1,16 @@
 :root[data-theme-id='kracht:heavy'] {
-  --background: oklch(0.94 0.005 85);
-  --primary: oklch(0.55 0.19 25);
-  --foreground-secondary: oklch(0.35 0.02 25);
+  --background: oklch(0.96 0 0);
+  --primary: oklch(0.60 0.21 25);
+  --foreground-secondary: oklch(0.40 0.02 25);
 }
 
 :root[data-theme-id='kracht:heavy'][data-theme='dark'] {
-  --background: oklch(0.13 0.003 0);
-  --background-secondary: oklch(0.17 0.004 0);
-  --background-input: oklch(0.2 0.004 0);
-  --primary: oklch(0.58 0.21 25);
-  --foreground: oklch(0.92 0.005 85);
-  --foreground-secondary: oklch(0.68 0.006 85);
-  --border: oklch(0.3 0.04 25);
+  /* Forged CAM Palette: Electric Red #ff3333 + Pure-Black #050505 + Bone-White #f0f0f0 */
+  --background: oklch(0.09 0 0);            /* #050505 bg-base */
+  --background-secondary: oklch(0.12 0 0);  /* #0a0a0a surface */
+  --background-input: oklch(0.17 0 0);      /* #151515 elevated */
+  --primary: oklch(0.62 0.26 25);           /* #ff3333 electric red */
+  --foreground: oklch(0.96 0 0);            /* #f0f0f0 text */
+  --foreground-secondary: oklch(0.65 0 0);  /* #909090 muted */
+  --border: oklch(0.22 0 0);                /* #1f1f1f border */
 }

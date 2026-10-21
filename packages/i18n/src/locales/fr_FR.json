@@ -1,7 +1,7 @@
 {
   "common": {
     "app": {
-      "name": "Nuclear",
+      "name": "Kracht",
       "description": "Application de streaming de musique gratuite"
     },
     "actions": {
@@ -195,7 +195,7 @@
   },
   "dashboard": {
     "title": "Tableau de bord",
-    "empty-state": "Bienvenue dans Nuclear",
+    "empty-state": "Bienvenue dans Kracht",
     "empty-state-description": "Installez un plugin pour voir les meilleurs morceaux, les nouvelles sorties et les recommandations ici.",
     "empty-state-action": "Parcourir les plugins",
     "top-tracks": "Meilleurs morceaux",
@@ -257,7 +257,7 @@
     "clickToRestart": "Cliquez pour redémarrer"
   },
   "flatpak": {
-    "sandboxWarning": "Vous exécutez Nuclear dans un sandbox Flatpak. Certaines fonctionnalités peuvent ne pas fonctionner correctement. En cas de problème, essayez le .deb ou l'AppImage à la place.",
+    "sandboxWarning": "Vous exécutez Kracht dans un sandbox Flatpak. Certaines fonctionnalités peuvent ne pas fonctionner correctement. En cas de problème, essayez le .deb ou l'AppImage à la place.",
     "dismiss": "Compris"
   },
   "preferences": {
@@ -354,11 +354,11 @@
       "mcp": {
         "enabled": {
           "title": "Activer le serveur MCP",
-          "description": "Démarrer un serveur MCP local qui permet aux outils IA de contrôler Nuclear."
+          "description": "Démarrer un serveur MCP local qui permet aux outils IA de contrôler Kracht."
         },
         "serverUrl": {
           "title": "URL du serveur MCP",
-          "description": "Pointez votre outil IA vers cette URL pour vous connecter à Nuclear."
+          "description": "Pointez votre outil IA vers cette URL pour vous connecter à Kracht."
         }
       },
       "discord": {

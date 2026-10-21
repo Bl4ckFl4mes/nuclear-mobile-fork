@@ -1,7 +1,7 @@
 {
   "common": {
     "app": {
-      "name": "Nuclear",
+      "name": "Kracht",
       "description": "Aplicativo de streaming de música gratuito"
     },
     "actions": {
@@ -205,7 +205,7 @@
     "updateAvailable": "Update available"
   },
   "flatpak": {
-    "sandboxWarning": "You're running Nuclear in a Flatpak sandbox. Some features may not work correctly. If you experience issues, try the .deb or AppImage instead.",
+    "sandboxWarning": "You're running Kracht in a Flatpak sandbox. Some features may not work correctly. If you experience issues, try the .deb or AppImage instead.",
     "dismiss": "Got it"
   },
   "preferences": {
@@ -292,11 +292,11 @@
       "mcp": {
         "enabled": {
           "title": "Enable MCP Server",
-          "description": "Start a local MCP server that allows AI tools to control Nuclear."
+          "description": "Start a local MCP server that allows AI tools to control Kracht."
         },
         "serverUrl": {
           "title": "MCP Server URL",
-          "description": "Point your AI tool to this URL to connect to Nuclear."
+          "description": "Point your AI tool to this URL to connect to Kracht."
         }
       }
     }
