@@ -80,7 +80,7 @@ impl NuclearMcpServer {
 
     #[tool(
         name = "list_methods",
-        description = "List available methods in a Nuclear API domain. Available domains: Queue, Playback, Metadata, Favorites, Playlists, Dashboard, Providers."
+        description = "List available methods in a Kracht API domain. Available domains: Queue, Playback, Metadata, Favorites, Playlists, Dashboard, Providers."
     )]
     async fn list_methods(
         &self,
@@ -91,7 +91,7 @@ impl NuclearMcpServer {
 
     #[tool(
         name = "method_details",
-        description = "Get full details for a Nuclear API method: description, parameter names and types, return type. Use Domain.method format."
+        description = "Get full details for a Kracht API method: description, parameter names and types, return type. Use Domain.method format."
     )]
     async fn method_details(
         &self,
@@ -111,7 +111,7 @@ impl NuclearMcpServer {
 
     #[tool(
         name = "describe_type",
-        description = "Get the JSON shape of a Nuclear data type. Use when a method parameter or return type references a complex type like Track, Queue, QueueItem, etc."
+        description = "Get the JSON shape of a Kracht data type. Use when a method parameter or return type references a complex type like Track, Queue, QueueItem, etc."
     )]
     async fn describe_type(
         &self,
@@ -122,7 +122,7 @@ impl NuclearMcpServer {
 
     #[tool(
         name = "call",
-        description = "Call a Nuclear music player API method. Use Domain.method format for the method name and pass parameters as a JSON object with named fields."
+        description = "Call a Kracht music player API method. Use Domain.method format for the method name and pass parameters as a JSON object with named fields."
     )]
     async fn call(
         &self,

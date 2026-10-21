@@ -9,7 +9,7 @@ use rust_embed::RustEmbed;
 #[folder = "../dist/"]
 struct FrontendAssets;
 
-// Hack that lets Nuclear serve the Nuclear Jam frontend from the same files
+// Hack that lets Kracht serve the Kracht Jam frontend from the same files
 // as the normal UI
 
 pub(super) async fn serve_frontend(uri: Uri) -> impl IntoResponse {
